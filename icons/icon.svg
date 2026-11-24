@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<!-- Gauge app icon: 4C's glass at buzzed, with the dashed projected-peak line. Chosen by John, 22 Nov (round 1, idea 1). -->
+<defs>
+  <radialGradient id="glow" cx="256" cy="300" r="300" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e3a43a" stop-opacity=".28"/><stop offset="1" stop-color="#e3a43a" stop-opacity="0"/>
+  </radialGradient>
+  <clipPath id="in"><path d="M178 132 L334 132 L314 394 L198 394 Z"/></clipPath>
+  <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4be62"/><stop offset="1" stop-color="#c98a2a"/></linearGradient>
+</defs>
+<rect width="512" height="512" fill="#0b151b"/>
+<rect width="512" height="512" fill="url(#glow)"/>
+<g clip-path="url(#in)">
+  <path d="M150 282 C200 270 230 294 270 282 S330 270 360 282 V420 H150 Z" fill="url(#liq)"/>
+</g>
+<path d="M186 214 H326" stroke="#f09a5b" stroke-width="10" stroke-dasharray="20 12"/>
+<path d="M194 150 L203 370" stroke="#fff" stroke-opacity=".28" stroke-width="12" stroke-linecap="round"/>
+<path d="M172 126 L340 126 L318 400 L194 400 Z" fill="none" stroke="#e5edef" stroke-opacity=".85" stroke-width="10" stroke-linejoin="round"/>
+<path d="M200 398 H312" stroke="#e5edef" stroke-opacity=".85" stroke-width="22" stroke-linecap="round"/>
+</svg>
